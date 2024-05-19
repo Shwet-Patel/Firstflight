@@ -3,7 +3,7 @@ import {navlinks} from '../Data';
 
 const Navbar = () => {
     return(
-        <div id='home' className="bg-teal-900 shadow-sm">
+        <div className="bg-teal-900 shadow-sm">
             <div className='grid grid-flow-col min-h-20 items-center justify-between mx-8'>
                 <img src={logo} alt='logo' className=' ml-16 h-16 w-16'/>
                 <div className='grid grid-flow-col items-center gap-x-4'>
